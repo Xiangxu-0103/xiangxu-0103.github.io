@@ -76,7 +76,7 @@
     <table width="100%" border="0" cellspacing="15" cellpadding="0">
     <tbody><tr>
     <td width="20%">
-        <a href="./files/photo.jpg"><img alt="Hang Zhang" src="./files/photo.jpg" width="160" border="1"></a>
+        <a href="./files/photo.jpg"><img alt="Xiang Xu" src="./files/photo.jpg" width="160" border="1"></a>
     </td>
     <td>
     <p>
@@ -86,9 +86,10 @@
         my bachelor degree at <a href="https://www.nuist.edu.cn/"> Nanjing University of Information Science & Technology
         (Nanjing, China)</a> in 2018. <br>
         My research interests include 3D computer vision, especifically for point cloud segmentation, and point cloud detection.<br>
-
-        <a href="mailto:xuxiang0103@gmail.com"><span style="font-size:24px" class="fa fa-envelope-square" aria-hidden="true"></span></a>
-        <a href="https://github.com/Xiangxu-0103"><span style="font-size:24px" class="fa fa-github-square" aria-hidden="true"></span></a> 
+        
+        <a href="mailto:xuxiang0103@gmail.com">Email</a> /
+        <a href="https://github.com/Xiangxu-0103"> Github </a> /
+        <a href="https://scholar.google.com.hk/citations?user=1UHZkksAAAAJ&hl=zh-CN">Google Scholar</a>
     </p>
     </td>
     </tr></tbody>
@@ -98,6 +99,7 @@
     <!-- News -->
     <div class="news" style="overflow:auto; height:210px; padding-top: 20px;">
     <ul>
+        <li><b><span>New! </span></b>[April, 2021] Our paper <a href="https://ieeexplore.ieee.org/abstract/document/9410334"><i>Backward Attentive Fusing Network with Local Aggregation Classifier for 3D Point Cloud Semantic Segmentation</i></a> is accepted to TIP.
         <li><b><span>New! </span></b>[July, 2020] Our paper <a href="http://www.aas.net.cn/article/doi/10.16383/j.aas.c200080"><i>基于卦限卷积神经网络的3D点云分析</i></a> is accepted to 自动化学报.
     </ul>
     </div>
@@ -109,6 +111,51 @@
     </div>
 
     <div><table class="tp"><tbody>
+
+    <!-- paper baf-lac-->
+    <tr>
+    <td width="33%" valign="top">
+        <a href="./figure/baf-lac.jpg"><img src="./figure/baf-lac.jpg" alt="shuai21" style="width:260px;height:110px;border-style: none"></a>
+    </td>
+    <td valign="top" style="padding-top: 10px;">
+    <p>
+        <heading>Backward Attentive Fusing Network with Local Aggregation Classifier for 3D Point Cloud Semantic Segmentation</heading><br>
+        Hui Shuai*, <b>Xiang Xu*</b>, Qingshan Liu <br>
+        <em>IEEE Transactions on Image Processing</em>, 2021 <br>
+    </p>
+    <div class="paper" id="Xu20">
+        <a class="button" href="https://ieeexplore.ieee.org/abstract/document/9410334">paper</a>
+        <a class="button" href="javascript:toggleblock('shuai21_abs')">abstract</a>
+        <a class="button" shape="rect" href="javascript:togglebib('shuai21')" class="togglebib">bibtex</a>
+        <a class="button" href="">code</a>
+        <iframe src=""
+        frameborder="0" scrolling="0" width="120px" height="20px"></iframe>
+    
+        <p xml: space="preserve"> <i id="shuai21_abs" style="display: none;">
+            In this paper, a Backward Attentive Fusing Network with Local Aggregation Classifier (BAF-LAC) is proposed
+            to improve the performance of 3D point cloud semantic segmentation. It consists of a Backward Attentive Fusing
+            Encoder-Decoder (BAF-ED) to learn semantic features and a Local Aggregation Classifier (LAC) to maintain the 
+            context-awareness of points. BAF-ED narrows the semantic gap between the encoder and the decoder via fusing
+            multi-layer encoder features with the decoder features. High-level encoder features are transformed into an
+            attention map to modulate low-level encoder features backward. LAC adaptively enhances the intermediate features
+            in point-wise MLPs via aggregating the features of neighboring points into the center point. It takes the place of
+            commonly used post-processing techniques and retains context consistency into the classifier. Equipped with these
+            modules, BAF-LAC can extract discriminative semantic features and predict smoother results. Extensive experiments
+            on Semantic3D, SemanticKITTI, and S3DIS demonstrate that the proposed method can achieve competitive results against
+            the state-of-the-art methods.
+        </i></p>
+        <pre xml: space="preserve" style="display: none;">
+            @article{shuai2021backward,
+                title={Backward Attentive Fusing Network with Local Aggregation Classifier for 3D Point Cloud Semantic Segmentation},
+                author={Shuai, Hui and Xu, Xiang and Liu, Qingshan},
+                journal={IEEE Transactions on Image Processing},
+                year={2021},
+                publisher={IEEE}
+              }
+        </pre>
+    </div>
+    </td>
+    </tr>
     
     <!-- paper octant-cnn-->
     <tr>
