@@ -7,7 +7,7 @@
 
 # Site Settings
 locale: "en-US"
-title:  "Xiang Xu"
+title: "Xiang Xu"
 title_separator: "-"
 name: &name "Xiang Xu"
 description: &description "Algorithm engineer at leapmotor"
