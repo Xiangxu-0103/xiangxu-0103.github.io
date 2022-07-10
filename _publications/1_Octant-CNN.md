@@ -9,5 +9,3 @@ paperurl: http://www.aas.net.cn/article/doi/10.16383/j.aas.c200080
 codeurl: https://github.com/Xiangxu-0103/Octant-CNN
 additional: true
 ---
-
-![oxtant_cnn](images/octant_cnn.png)
