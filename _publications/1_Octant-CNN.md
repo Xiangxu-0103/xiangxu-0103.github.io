@@ -1,5 +1,5 @@
 ---
-image: /_publications/images/octant_cnn.png
+image: /publications/images/octant_cnn.png
 title: "基于卦限卷积神经网络的 3D 点云分析"
 collection: publications
 permalink: /publication/Octant-CNN

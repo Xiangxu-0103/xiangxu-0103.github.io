@@ -22,8 +22,7 @@ News
 Education
 ---------
 
-Publications
-------------
+## Publications
 
 {% include base_path %}
 <hr width="80%">
