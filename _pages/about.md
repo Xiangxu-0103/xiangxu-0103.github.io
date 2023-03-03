@@ -95,7 +95,7 @@ Miscellaneous
 
 **Academic Services** \
 I served as a reviewer for Acta Automatica Sinica (自动化学报). \
-I served as a collaborator of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), work closely with [whenwei zhang](http://zhangwenwei.cn/).
+I served as a collaborator of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), work closely with [wenwei zhang](http://zhangwenwei.cn/).
 
 **Hobbies** \
 Love: 🏀Basketball, 🎶music, 🏸badminton, and 🏓table tennis.
