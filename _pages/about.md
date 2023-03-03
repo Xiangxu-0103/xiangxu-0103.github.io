@@ -15,7 +15,6 @@ News
 
 - \[2023/01\] I have been invited as a collaborator on [MMDetection3D](https://github.com/open-mmlab/mmdetection3d).
 - \[2022/07\] [Waterfall-Net](https://link.springer.com/chapter/10.1007/978-3-031-18913-5_3), a new point cloud segmentation paradigm network with waterfall feature aggregation, is accepted by PRCV 2022.
-- \[2022/04\] I have become a contributor of [MMLab](https://openmmlab.com/) project.
 - \[2022/04\] [CED-Net](https://link.springer.com/article/10.1007/s00530-022-00938-2), which introduces contextual information both in shape and feature level for 3D face reconstruction, is accepted by Multimedia Systems.
 - \[2021/12\] [SA-Net](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12173/1217318/Semantic-aware-object-detection-for-3D-point-cloud/10.1117/12.2634724.short?SSO=1), a semantic-aware network for point cloud object detection, is accepted by ICOMV 2022.
 - \[2021/04\] [BAF-LAC](https://ieeexplore.ieee.org/abstract/document/9410334), a novel segmentation paradigm network for point cloud, is accepted by TIP.
@@ -87,7 +86,7 @@ Experience
 <dl>
   <dt><img src="../images/leapmotor.jpeg" width="90" height="90" align="left" /></dt>
   <dt>Leapmotor Technologies Co. Ltd.</dt>
-  <dd>July 2021 - Now. Advisor: Laifeng Hu</dd>
+  <dd>July 2021 - February 2023. Advisor: Laifeng Hu</dd>
   <dd>Focus: Lidar perception for autonomous driving.</dd>
 </dl>
 
@@ -96,7 +95,7 @@ Miscellaneous
 
 **Academic Services** \
 I served as a reviewer for Acta Automatica Sinica (自动化学报). \
-I served as a collaborator of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d).
+I served as a collaborator of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), work closely with [whenwei zhang](http://zhangwenwei.cn/).
 
 **Hobbies** \
 Love: 🏀Basketball, 🎶music, 🏸badminton, and 🏓table tennis.
