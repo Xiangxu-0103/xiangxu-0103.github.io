@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an Algorithm engineer of [Leapmotor Technology](https://www.leapmotor.com/home) since July 2021. Previously I spent seven wonderful years and obtained my Master's Degree and Bachelor's Degree at [Nanjing University of Information Science and Technology](https://www.nuist.edu.cn/main.htm) respectively, supervised by [Qingshan Liu](https://faculty.nuist.edu.cn/liuqingshan/zh_CN/index.htm). My current research is mainly focus on general 3D perception, including segmentation and detection for point cloud. Here is my [personal CV](../files/CV.pdf).
+I am a Ph.D. student of [Nanjing University of Aeronautics and Astronautics](http://nuaa.edu.cn/), supervised by [Qingshan Liu](https://faculty.nuist.edu.cn/liuqingshan/zh_CN/index.htm). Before, I served as an algorithm engineer of [Leapmotor Technology](https://www.leapmotor.com/home) from July 2021 to February 2023. I obtained my Master's Degree and Bachelor's Degree at [Nanjing University of Information Science and Technology](https://www.nuist.edu.cn/main.htm) respectively, supervised by [Qingshan Liu](https://faculty.nuist.edu.cn/liuqingshan/zh_CN/index.htm). My current research is mainly focus on general 3D perception, including segmentation and detection for point cloud. Here is my [personal CV](../files/CV.pdf).
 
 News
 ------------------------
@@ -22,6 +22,13 @@ News
 
 Education
 ------------------------
+
+<dl>
+  <dt><img src="../images/nuaa.jpeg" width="90" height="90" align="left"></dt>
+  <dt>Nanjing University of Aeronautics and Astronautics (NUAA)</dt>
+  <dd>April 2023 - Present</dd>
+  <dd>Ph.D. in Computer Science and Technology</dd>
+</dl>
 
 <dl>
   <dt><img src="../images/nuist.jpg" width="90" height="90" align="left" /></dt>
@@ -95,7 +102,7 @@ Miscellaneous
 
 **Academic Services** \
 I served as a reviewer for Acta Automatica Sinica (自动化学报). \
-I served as a collaborator of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), work closely with [wenwei zhang](http://zhangwenwei.cn/).
+I served as a collaborator of [MMDetection3D](https://github.com/open-mmlab/mmdetection3d), work closely with [Wenwei Zhang](http://zhangwenwei.cn/).
 
 **Hobbies** \
 Love: 🏀Basketball, 🎶music, 🏸badminton, and 🏓table tennis.

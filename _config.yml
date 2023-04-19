@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Xiang Xu"
 title_separator          : "-"
 name                     : &name "Xiang Xu"
-description              : &description "Algorithm engineer at Leapmotor"
+description              : &description "PhD student @ NUAA"
 url                      : https://Xiangxu-0103.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Xiangxu-0103/Xiangxu-0103.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Xiang Xu 许翔"
   avatar           : "xiangxu.jpg"
-  bio              : "Algorithm engineer @ Leapmotor, Hangzhou"
-  location         : "Hangzhou"
+  bio              : "PhD student @ NUAA, Nanjing"
+  location         : "Nanjing"
   employer         :
   pubmed           :
   googlescholar    : "https://scholar.google.com.hk/citations?user=1UHZkksAAAAJ&hl=zh-CN"
