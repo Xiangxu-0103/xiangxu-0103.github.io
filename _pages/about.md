@@ -107,10 +107,9 @@ Experience
 ------------------------
 
 <img style="float: left; margin:5px 10px" src="../images/leapmotor.jpeg" width="90" height="90">
-### Nanjing University of Information Science and Technology (NUIST)
+### Leapmotor Technologies Co. Ltd.
 <p style="line-height:1.0">
   <font size="2">
-    Leapmotor Technologies Co. Ltd.<br/>
     July 2021 - February 2023. Advisor: Laifeng Hu<br/>
     Focus: Lidar perception for autonomous driving.<br/>
   </font>
