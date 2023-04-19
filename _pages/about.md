@@ -50,79 +50,71 @@ Education
   </font>
 </p>
 
-<!-- <dl>
-  <dt><img src="../images/nuaa.jpeg" width="90" height="90" align="left"></dt>
-  <dt>Nanjing University of Aeronautics and Astronautics (NUAA)</dt>
-  <dd>April 2023 - Present</dd>
-  <dd>Ph.D. in Computer Science and Technology</dd>
-</dl>
-
-<dl>
-  <dt><img src="../images/nuist.jpg" width="90" height="90" align="left" /></dt>
-  <dt>Nanjing University of Information Science and Technology (NUIST)</dt>
-  <dd>September 2018 - June 2021</dd>
-  <dd>M.S. in Control Science and Engineering</dd>
-</dl>
-
-<dl>
-  <dt><img src="../images/nuist.jpg" width="90" height="90" align="left" /></dt>
-  <dt>Nanjing University of Information Science and Technology (NUIST)</dt>
-  <dd>September 2014 - June 2018</dd>
-  <dd>Major: B.E. in Electrical Engineering and Automation</dd>
-</dl> -->
-
 Publications
 ------------------------
 
-<dl>
-  <dt><img src="../images/waterfall_net.png" width="180" height="110" align="left" /></dt>
-  <dt>Waterfall-Net: Waterfall Feature Aggregation for Point Cloud Semantic Segmentation</dt>
-  <dd>Hui Shuai, <strong>Xiang Xu</strong>, Qingshan Liu</dd>
-  <dd>Chinese Conference on Pattern Recognition and Computer Vision, 2022</dd>
-  <dd><a href="https://link.springer.com/chapter/10.1007/978-3-031-18913-5_3">[paper]</a> <a href="https://github.com/Xiangxu-0103/Waterfall-Net">[Code]</a></dd>
-</dl>
+<img style="float: left; margin:5px 10px" src="../images/waterfall_net.png" width="180" height="110">
+### Waterfall-Net: Waterfall Feature Aggregation for Point Cloud Semantic Segmentation
+<p style="line-height:1.0">
+  <font size="2">
+    Hui Shuai, <strong>Xiang Xu</strong>, Qingshan Liu<br/>
+    Chinese Conference on Pattern Recognition and Computer Vision, 2022<br/>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-18913-5_3">[paper]</a> <a href="https://github.com/Xiangxu-0103/Waterfall-Net">[Code]</a><br/>
+  </font>
+</p>
 
-<dl>
-  <dt><img src="../images/ced-net.jpg" width="180" height="110" align="left" /></dt>
-  <dt>CED-Net: Contextual Encoder-Decoder Network for 3D Face Reconstruction</dt>
-  <dd>Lei Zhu, Shanmin Wang, Zengqun Zhao, <strong>Xiang Xu</strong>, Qiangshan Liu</dd>
-  <dd>Multimedia Systems, 2022</dd>
-  <dd><a href="https://link.springer.com/article/10.1007/s00530-022-00938-2">[Paper]</a></dd>
-</dl>
+<img style="float: left; margin:5px 10px" src="../images/ced-net.jpg" width="180" height="110">
+### CED-Net: Contextual Encoder-Decoder Network for 3D Face Reconstruction
+<p style="line-height:1.0">
+  <font size="2">
+    Lei Zhu, Shanmin Wang, Zengqun Zhao, <strong>Xiang Xu</strong>, Qiangshan Liu<br/>
+    Multimedia Systems, 2022<br/>
+    <a href="https://link.springer.com/article/10.1007/s00530-022-00938-2">[Paper]</a><br/>
+  </font>
+</p>
 
-<dl>
-  <dt><img src="../images/sa_net.png" width="180" height="110" align="left" /></dt>
-  <dt>Semantic-Aware Object Detection for 3D Point Cloud</dt>
-  <dd><strong>Xiang Xu</strong>, Gang Huang, Laifeng Hu, Yaonong Wang</dd>
-  <dd>International Conference on Optics and Machine Vision, 2022</dd>
-  <dd><a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12173/1217318/Semantic-aware-object-detection-for-3D-point-cloud/10.1117/12.2634724.short?SSO=1">[paper]</a></dd>
-</dl>
+<img style="float: left; margin:5px 10px" src="../images/sa_net.png" width="180" height="110">
+### Semantic-Aware Object Detection for 3D Point Cloud
+<p style="line-height:1.0">
+  <font size="2">
+    <strong>Xiang Xu</strong>, Gang Huang, Laifeng Hu, Yaonong Wang<br/>
+    International Conference on Optics and Machine Vision, 2022<br/>
+    <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12173/1217318/Semantic-aware-object-detection-for-3D-point-cloud/10.1117/12.2634724.short?SSO=1">[paper]</a><br/>
+  </font>
+</p>
 
-<dl>
-  <dt><img src="../images/baf-lac.jpg" width="180" height="110" align="left" /></dt>
-  <dt>Backward Attentive Fusing Network with Local Aggregation Classifier for 3D Point Cloud Semantic Segmentation</dt>
-  <dd>Hui Shuai, <strong>Xiang Xu</strong>, Qingshan Liu</dd>
-  <dd>IEEE Transactions on Image Processing 2021</dd>
-  <dd><a href="https://ieeexplore.ieee.org/abstract/document/9410334">[Paper]</a> <a href="https://github.com/Xiangxu-0103/BAF-LAC">[Code]</a></dd>
-</dl>
+<img style="float: left; margin:5px 10px" src="../images/baf-lac.jpg" width="180" height="110">
+### Backward Attentive Fusing Network with Local Aggregation Classifier for 3D Point Cloud Semantic Segmentation
+<p style="line-height:1.0">
+  <font size="2">
+    Hui Shuai, <strong>Xiang Xu</strong>, Qingshan Liu<br/>
+    IEEE Transactions on Image Processing 2021<br/>
+    <a href="https://ieeexplore.ieee.org/abstract/document/9410334">[Paper]</a> <a href="https://github.com/Xiangxu-0103/BAF-LAC">[Code]</a><br/>
+  </font>
+</p>
 
-<dl>
-  <dt><img src="../images/octant_cnn.png" width="180" height="110" align="left" /></dt>
-  <dt>基于卦限卷积神经网络的 3D 点云分析</dt>
-  <dd><strong>许翔</strong>, 帅惠, 刘青山</dd>
-  <dd>自动化学报 2021</dd>
-  <dd><a href="http://www.aas.net.cn/article/doi/10.16383/j.aas.c200080">[Paper]</a> <a href="https://github.com/Xiangxu-0103/Octant-CNN">[Code]</a></dd>
-</dl>
+<img style="float: left; margin:5px 10px" src="../images/octant_cnn.png" width="180" height="110">
+### 基于卦限卷积神经网络的 3D 点云分析
+<p style="line-height:1.0">
+  <font size="2">
+    <strong>许翔</strong>, 帅惠, 刘青山<br/>
+    自动化学报 2021<br/>
+    <a href="http://www.aas.net.cn/article/doi/10.16383/j.aas.c200080">[Paper]</a> <a href="https://github.com/Xiangxu-0103/Octant-CNN">[Code]</a><br/>
+  </font>
+</p>
 
 Experience
 ------------------------
 
-<dl>
-  <dt><img src="../images/leapmotor.jpeg" width="90" height="90" align="left" /></dt>
-  <dt>Leapmotor Technologies Co. Ltd.</dt>
-  <dd>July 2021 - February 2023. Advisor: Laifeng Hu</dd>
-  <dd>Focus: Lidar perception for autonomous driving.</dd>
-</dl>
+<img style="float: left; margin:5px 10px" src="../images/leapmotor.jpeg" width="90" height="90">
+### Nanjing University of Information Science and Technology (NUIST)
+<p style="line-height:1.0">
+  <font size="2">
+    Leapmotor Technologies Co. Ltd.<br/>
+    July 2021 - February 2023. Advisor: Laifeng Hu<br/>
+    Focus: Lidar perception for autonomous driving.<br/>
+  </font>
+</p>
 
 Miscellaneous
 ------------------------
