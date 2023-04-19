@@ -23,7 +23,34 @@ News
 Education
 ------------------------
 
-<dl>
+<img style="float: left; margin:5px 10px" src="../images/nuaa.jpeg" width="90" height="90">
+### Nanjing University of Aeronautics and Astronautics (NUAA)
+<p style="line-height:1.0">
+  <font size="2">
+    April 2023 - Present<br/>
+    Ph.D. in Computer Science and Technology<br/>
+  </font>
+</p>
+
+<img style="float: left; margin:5px 10px" src="../images/nuist.jpg" width="90" height="90">
+### Nanjing University of Information Science and Technology (NUIST)
+<p style="line-height:1.0">
+  <font size="2">
+    September 2018 - June 2021<br/>
+    M.S. in Control Science and Engineering<br/>
+  </font>
+</p>
+
+<img style="float: left; margin:5px 10px" src="../images/nuist.jpg" width="90" height="90">
+### Nanjing University of Information Science and Technology (NUIST)
+<p style="line-height:1.0">
+  <font size="2">
+    September 2014 - June 2018<br/>
+    Major: B.E. in Electrical Engineering and Automation<br/>
+  </font>
+</p>
+
+<!-- <dl>
   <dt><img src="../images/nuaa.jpeg" width="90" height="90" align="left"></dt>
   <dt>Nanjing University of Aeronautics and Astronautics (NUAA)</dt>
   <dd>April 2023 - Present</dd>
@@ -42,7 +69,7 @@ Education
   <dt>Nanjing University of Information Science and Technology (NUIST)</dt>
   <dd>September 2014 - June 2018</dd>
   <dd>Major: B.E. in Electrical Engineering and Automation</dd>
-</dl>
+</dl> -->
 
 Publications
 ------------------------
