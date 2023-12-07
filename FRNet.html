@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="FRNet">
+  <meta name="keywords" content="Frustum-Range, LiDAR Segmentation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FRNet</title>
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://xiangxu-0103.github.io/">Xiang Xu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              <a href="https://ldkong.com/">Lingdong Kong</a><sup>2</sup>,</span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=zG3rgUcAAAAJ&hl">Hui Shuai</a><sup>3</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ&hl">Qingshan Liu</a><sup>3</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Nanjing University of Aeronautics and Astronautics</span>
+            <span class="author-block"><sup>2</sup>National University of Singapore</span>
+          </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>3</sup>Nanjing University of Posts and Telecommunications</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark"
+                   target="_blank">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Arxiv</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/Xiangxu-0103/FRNet"
+                   class="external-link button is-normal is-rounded is-dark"
+                   target="_blank">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <div class="teaser">
+        <img src = "./FRNet/teaser.png",
+               class="teaser image"
+               alt="teaser image"/>
+      </div>
+      <h2 class="subtitle has-text-centered">
+        FRNet achieves competitive performance with current arts while maintaining satisfactory efficiency for real-time processing.
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            LiDAR segmentation is crucial for autonomous driving systems. The recent range-view
+            approaches are promising for real-time processing. However, they suffer inevitably
+            from corrupted contextual information and rely heavily on post-processing techniques
+            for prediction refinement. In this work, we propose a simple yet powerful FRNet that
+            restores the contextual information of the range image pixels with corresponding
+            frustum LiDAR points. Firstly, a frustum feature encoder module is used to extract
+            per-point features within the frustum region, which preserves scene consistency and
+            is crucial for point-level predictions. Next, a frustum-point fusion module is
+            introduced to update per-point features hierarchically, which enables each point to
+            extract more surrounding information via the frustum features. Finally, a head fusion
+            module is used to fuse features at different levels for final semantic prediction.
+            Extensive experiments on four popular LiDAR segmentation benchmarks under various task
+            setups demonstrate our superiority. FRNet achieves competitive performance while
+            maintaining high efficiency. The code is publicly available.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <!-- Pipeline. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Framework</h2>
+        <div class="framework">
+          <img src="./FRNet/framework.png"
+                 class="framework image"
+                 alt="framework image"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            FRNet comprises three main components:
+            1) <strong>Frustum Feature Encoder</strong> is used to embed per-point features in the frustum region.
+            2) <strong>Frustum-Point Fusion Module</strong> is used to update per-point features hierarchically at each stage of the 2D backbone.
+            3) <strong>Fusion Head</strong> fuses different levels of features to predict final results.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Pipeline. -->
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">More results</h2>
+      </div>
+    </div>
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="content has-text-justified">
+          <p>
+            We show more qualitative results among state-of-the-art LiDAR segmentation methods. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <h2 class="title is-3">SemanticKITTI</h2>
+    <div class="vis_semkitti">
+      <img src="./FRNet/vis_semkitti.png"
+           class="vis_semkitti image"
+           alt="vis_semkitti image"/>
+    </div>
+  </div>
+
+  <div class="hero-body">
+    <h2 class="title is-3">nuScenes</h2>
+    <div class="vis_nus">
+      <img src="./FRNet/vis_nus.png"
+           class="vis_nus image"
+           alt="vis_nus image"/>
+    </div>
+  </div>
+
+<!-- <section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{ma2021deblur,
+      title   ={Deblur-NeRF: Neural Radiance Fields from Blurry Images},
+      author  ={Ma, Li and Li, Xiaoyu and Liao, Jing and Zhang, Qi and Wang, Xuan and Wang, Jue and Pedro V. Sander},
+      journal ={arXiv preprint arXiv:2111.14292},
+      year    ={2021}
+}
+</code></pre>
+  </div>
+</section> -->
+
+
+<footer class="footer">
+  <div class="container">
+    <!-- <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://homes.cs.washington.edu/~kpar/nerfies/videos/nerfies_paper.pdf">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div> -->
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The source code of this website is borrowed from 
+            <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+          </p>
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/limacv/deblurnerf">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
