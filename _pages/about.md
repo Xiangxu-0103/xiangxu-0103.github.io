@@ -53,7 +53,7 @@ Education
 Publications
 ------------------------
 
-<img style="float: left; margin:5px 10px" src="../FRNet/framework.png" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../FRNet/teaser.png" width="180" height="110">
 ### FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation
 <p style="line-height:1.0">
   <font size="2">
