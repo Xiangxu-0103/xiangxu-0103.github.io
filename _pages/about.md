@@ -23,7 +23,7 @@ News
 Education
 ------------------------
 
-<img style="float: left" src="../images/nuaa.jpeg" width="90" height="90">
+<img style="float: left; margin:5px 10px" src="../images/nuaa.jpeg" width="90" height="90">
 ### Nanjing University of Aeronautics and Astronautics (NUAA)
 <p style="line-height:1.0">
   <font size="2">
@@ -32,7 +32,7 @@ Education
   </font>
 </p>
 
-<img style="float: left" src="../images/nuist.jpg" width="90" height="90">
+<img style="float: left; margin:5px 10px" src="../images/nuist.jpg" width="90" height="90">
 ### Nanjing University of Information Science and Technology (NUIST)
 <p style="line-height:1.0">
   <font size="2">
@@ -41,7 +41,7 @@ Education
   </font>
 </p>
 
-<img style="float: left" src="../images/nuist.jpg" width="90" height="90">
+<img style="float: left; margin:5px 10px" src="../images/nuist.jpg" width="90" height="90">
 ### Nanjing University of Information Science and Technology (NUIST)
 <p style="line-height:1.0">
   <font size="2">
@@ -53,7 +53,7 @@ Education
 Publications
 ------------------------
 
-<img style="float: left" src="../FRNet/teaser.png" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../FRNet/teaser.png" width="180" height="110">
 ### FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation
 <p style="line-height:1.0">
   <font size="2">
@@ -63,7 +63,7 @@ Publications
   </font>
 </p>
 
-<img style="float: left" src="../images/waterfall_net.png" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../images/waterfall_net.png" width="180" height="110">
 ### Waterfall-Net: Waterfall Feature Aggregation for Point Cloud Semantic Segmentation
 <p style="line-height:1.0">
   <font size="2">
@@ -73,7 +73,7 @@ Publications
   </font>
 </p>
 
-<img style="float: left" src="../images/ced-net.jpg" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../images/ced-net.jpg" width="180" height="110">
 ### CED-Net: Contextual Encoder-Decoder Network for 3D Face Reconstruction
 <p style="line-height:1.0">
   <font size="2">
@@ -83,7 +83,7 @@ Publications
   </font>
 </p>
 
-<img style="float: left" src="../images/sa_net.png" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../images/sa_net.png" width="180" height="110">
 ### Semantic-Aware Object Detection for 3D Point Cloud
 <p style="line-height:1.0">
   <font size="2">
@@ -93,7 +93,7 @@ Publications
   </font>
 </p>
 
-<img style="float: left" src="../images/baf-lac.jpg" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../images/baf-lac.jpg" width="180" height="110">
 ### Backward Attentive Fusing Network with Local Aggregation Classifier for 3D Point Cloud Semantic Segmentation
 <p style="line-height:1.0">
   <font size="2">
@@ -103,7 +103,7 @@ Publications
   </font>
 </p>
 
-<img style="float: left" src="../images/octant_cnn.png" width="180" height="110">
+<img style="float: left; margin:5px 10px" src="../images/octant_cnn.png" width="180" height="110">
 ### 基于卦限卷积神经网络的 3D 点云分析
 <p style="line-height:1.0">
   <font size="2">
@@ -116,7 +116,7 @@ Publications
 Experience
 ------------------------
 
-<img style="float: left" src="../images/leapmotor.jpeg" width="90" height="90">
+<img style="float: left; margin:5px 10px" src="../images/leapmotor.jpeg" width="90" height="90">
 ### Leapmotor Technologies Co. Ltd.
 <p style="line-height:1.0">
   <font size="2">
