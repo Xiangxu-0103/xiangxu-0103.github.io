@@ -53,13 +53,23 @@ Education
 Publications
 ------------------------
 
+<img style="float: left; margin:5px 10px" src="../FRNet/framework.png" width="180" height="110">
+### FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation
+<p style="line-height:1.0">
+  <font size="2">
+    <strong>Xiang Xu</strong>, Lingdong Kong, Hui Shuai, Qingshan Liu<br/>
+    arXiv preprint<br/>
+    <a href="https://arxiv.org/abs/2312.04484">[Paper]</a> <a href="https://github.com/Xiangxu-0103/FRNet">[Code]</a><a href="https://xiangxu-0103.github.io/FRNet">[Project]</a><br/>
+  </font>
+</p>
+
 <img style="float: left; margin:5px 10px" src="../images/waterfall_net.png" width="180" height="110">
 ### Waterfall-Net: Waterfall Feature Aggregation for Point Cloud Semantic Segmentation
 <p style="line-height:1.0">
   <font size="2">
     Hui Shuai, <strong>Xiang Xu</strong>, Qingshan Liu<br/>
     Chinese Conference on Pattern Recognition and Computer Vision, 2022<br/>
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-18913-5_3">[paper]</a> <a href="https://github.com/Xiangxu-0103/Waterfall-Net">[Code]</a><br/>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-18913-5_3">[Paper]</a> <a href="https://github.com/Xiangxu-0103/Waterfall-Net">[Code]</a><br/>
   </font>
 </p>
 
@@ -79,7 +89,7 @@ Publications
   <font size="2">
     <strong>Xiang Xu</strong>, Gang Huang, Laifeng Hu, Yaonong Wang<br/>
     International Conference on Optics and Machine Vision, 2022<br/>
-    <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12173/1217318/Semantic-aware-object-detection-for-3D-point-cloud/10.1117/12.2634724.short?SSO=1">[paper]</a><br/>
+    <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12173/1217318/Semantic-aware-object-detection-for-3D-point-cloud/10.1117/12.2634724.short?SSO=1">[Paper]</a><br/>
   </font>
 </p>
 
