@@ -89,20 +89,20 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            LiDAR segmentation is crucial for autonomous driving systems. The recent range-view
-            approaches are promising for real-time processing. However, they suffer inevitably
-            from corrupted contextual information and rely heavily on post-processing techniques
-            for prediction refinement. In this work, we propose a simple yet powerful FRNet that
-            restores the contextual information of the range image pixels with corresponding
-            frustum LiDAR points. Firstly, a frustum feature encoder module is used to extract
-            per-point features within the frustum region, which preserves scene consistency and
-            is crucial for point-level predictions. Next, a frustum-point fusion module is
-            introduced to update per-point features hierarchically, which enables each point to
-            extract more surrounding information via the frustum features. Finally, a head fusion
-            module is used to fuse features at different levels for final semantic prediction.
-            Extensive experiments on four popular LiDAR segmentation benchmarks under various task
-            setups demonstrate our superiority. FRNet achieves competitive performance while
-            maintaining high efficiency. The code is publicly available.
+            LiDAR segmentation has become a crucial component in advanced autonomous driving systems.
+            Recent range-view LiDAR segmentation approaches show promise for real-time processing.
+            However, they inevitably suffer from corrupted contextual information and rely heavily on post-processing techniques for prediction refinement.
+            In this work, we propose FRNet, a simple yet powerful method aimed at restoring the contextual information of range image pixels using corresponding frustum LiDAR points.
+            Firstly, a frustum feature encoder module is used to extract per-point features within the frustum region,
+            which preserves scene consistency and is crucial for point-level predictions.
+            Next, a frustum-point fusion module is introduced to update per-point features hierarchically,
+            enabling each point to extract more surrounding information via the frustum features.
+            Finally, a head fusion module is used to fuse features at different levels for final semantic prediction.
+            Extensive experiments conducted on four popular LiDAR segmentation benchmarks under various task setups demonstrate the superiority of FRNet.
+            Notably, FRNet achieves 73.3% and 82.5% mIoU scores on the testing sets of SemanticKITTI and nuScenes.
+            While achieving competitive performance, FRNet operates 5 times faster than state-of-the-art approaches.
+            Such high efficiency opens up new possibilities for more scalable LiDAR segmentation.
+            The code has been made publicly available at https://github.com/Xiangxu-0103/FRNet.
           </p>
         </div>
       </div>
@@ -126,8 +126,8 @@
         <div class="content has-text-justified">
           <p>
             FRNet comprises three main components:
-            1) <strong>Frustum Feature Encoder</strong> is used to embed per-point features in the frustum region.
-            2) <strong>Frustum-Point Fusion Module</strong> is used to update per-point features hierarchically at each stage of the 2D backbone.
+            1) <strong>Frustum Feature Encoder</strong> is used to embed per-point features within the frustum region.
+            2) <strong>Frustum-Point Fusion Module</strong> updates per-point features hierarchically at each stage of the 2D backbone.
             3) <strong>Fusion Head</strong> fuses different levels of features to predict final results.
           </p>
         </div>
