@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FRNet">
+  <meta name="google-site-verification" content="FzAJM_4azDmgt5qXJBAUDAx332xVDar5iPZyD48YJug" />
+
+  <title>LiMA - Project Page</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+  <link id="theme-style" rel="stylesheet" href="projects/css/main.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7G7KG5PND3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7G7KG5PND3');
+  </script>
+
+  <script type="module" src="projects/js/background_star.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<section class="section intro-section">
+	<div class="intro-container" style="text-align: center;">
+	  <div class="header">
+			<h3 class="papername">Beyond One Shot, Beyond One Perspective: Cross-View and Long-Horizon Distillation for Better LiDAR Representations</h3>
+		</div>
+		<ul class="list-unstyled name-list">
+			<li><a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ" target="_blank">Xiang Xu</a><sup>1</sup></li>
+      <li><a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target="_blank">Lingdong Kong</a><sup>2</sup></li>
+      <li><a href="https://scholar.google.com/citations?user=Jj0jbL8AAAAJ" target="_blank">Song Wang</a><sup>3</sup></li>
+      <li><a href="https://github.com/deepcharle" target="_blank">Chuanwei Zhou</a><sup>4</sup></li>
+      <li><a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ" target="_blank">Qingshan Liu</a><sup>4,5</sup></li>
+		</ul>
+		<ul class="list-unstyled name-list">
+			<li><sup>1</sup>Nanjing University of Aeronautics and Astronautics</li>
+      <li><sup>2</sup>National University of Singapore</li>
+      <li><sup>3</sup>Zhejiang University</li>
+      <li><sup>4</sup>Nanjing University of Posts and Telecommunications</li>
+      <li><sup>5</sup>SKL-TI</li>
+		</ul>
+	</div>
+</section>
+
+<section class="section">
+	<div class="section-title">
+		Abstract
+	</div>
+	<div class="details">
+		LiDAR representation learning aims to extract rich structural and semantic information from large-scale, readily available datasets, reducing reliance on costly human annotations.
+    However, existing LiDAR representation strategies often overlook the inherent spatiotemporal cues in LiDAR sequences, limiting their effectiveness.
+    In this work, we propose LiMA, a novel long-term image-to-LiDAR Memory Aggregation framework that explicitly captures longer range temporal correlations to enhance LiDAR representation learning.
+    LiMA comprises three key components:
+    1) a Cross-View Aggregation module that aligns and fuses overlapping regions across neighboring camera views, constructing a more unified and redundancy-free memory bank;
+    2) a Long-Term Feature Propagation mechanism that efficiently aligns and integrates multi-frame image features, reinforcing temporal coherence during LiDAR representation learning;
+    and 3) a Cross-Sequence Memory Alignment strategy that enforces consistency across driving sequences, improving generalization to unseen environments.
+    LiMA maintains high pretraining efficiency and incurs no additional computational overhead during downstream tasks.
+    Extensive experiments on mainstream LiDAR-based perception benchmarks demonstrate that LiMA significantly improves both LiDAR semantic segmentation and 3D object detection.
+    We hope this work inspires more effective pretraining paradigms for autonomous driving.
+    The code will be made publicly accessible for future research.
+	</div>
+</section>
+
+<br>
+<section class="section links-section">
+	<div class="section-title">
+		Resource
+	</div>
+	<div class="details links-table">
+		<table>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>
+					<div class="links-container">
+						<a href="https://arxiv.org/abs/2507.05260" target="_blank"><img class="links-cover" src="projects/arxiv.png" alt="PDF Cover"></a>
+					</div>
+				</td>
+				<td>
+					<div class="links-container">
+						<a href="https://github.com/Xiangxu-0103/LiMA" target="_blank"><img class="links-cover" src="projects/github.png" alt="github icon"></a>
+					</div>
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td><a href="https://arxiv.org/abs/2507.05260" target="_blank">Paper</a></td>
+        <td><a href="https://github.com/Xiangxu-0103/LiMA" target="_blank">Code</a></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</section>
+
+<br/>
+<section class="section highlights-section">
+	<div class="section-title">
+		HighLight
+	</div>
+	<br>
+	<div class="details highlights-container">
+		<div class="highlights-content">
+			<div style="width:50%; text-align: center;">
+				<img style="width:100%" src="projects/LiMA/teaser.png" alt='teaser'>
+				<strong>Figure 1.</strong> Illustrative examples of image-to-LiDAR pretraining paradigms.
+        (a) Spatial Alignment aligns LiDAR features with corresponding image features in the spatial domain without considering temporal consistency.
+        (b) Short-Term methods propagate LiDAR features frame by frame, ensuring feature consistency across neighboring frames but fail to capture long-term dependencies.
+        (c) Our approach leverages Long-Term image sequences to enrich LiDAR representations, enabling a more comprehensive understanding of long-range dependencies and motion patterns.
+			</div>
+			<div style="width:50%; margin-left:20px">
+			  <strong>Long-Term image-to-LiDAR Memory Aggregation</strong><br>
+        In this work, we present <strong>LiMA</strong>, a simple yet effective framework that distills rich motion patterns from longer sequences into LiDAR representations, enhancing the robustness and generalizability in LiDAR data pretraining.
+        LiMA comprises three key components:
+        <strong>(1)</strong> Cross-View Aggregation, which unifies multi-view image features to construct a high-quality memory bank;
+        <strong>(2)</strong> Long-Term Feature Propagation, which enforces temporal consistency module, which enforces temporal consistency and propagates long-term motion cues;
+        and <strong>(3)</strong> Cross-Sequence Memory Alignment, which improves robustness by aligning long-term features across diverse driving contexts.<br>
+        By integrating these three components, LiMA effectively captures both spatial and temporal correlations within and across driving sequences.
+        Our framework ensures high pretraining efficiency with an increased number of frames, requiring no more than 20 hours for pretraining.
+        Furthermore, LiMA introduces no additional computational overhead during downstream tasks, ensuring efficient deployment.
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="highlights-content">
+			<div style="width:100%; text-align: center;">
+				<img style="width:100%" src="projects/LiMA/framework.png" alt='framework'>
+				<strong>Figure 2.</strong> Overview of the LiMA framework. At each timestamp <i>t</i>, multi-view image features are first extracted and unified through the <strong>Cross-View Aggregation</strong> module.
+        A <strong>Memory Bank</strong> is introduced to maintain unified image features from the past <i>k</i> frames, enabling temporal feature propagation and fusion to capture <strong>Long-Term Motion Patterns</strong>.
+        The enriched temporal features are distilled into LiDAR representation, enabling <strong>Cross-Modal Learning</strong>.
+        The memory bank is continuously updated in a first-in, first-out (FIFO) manner, ensuring effective feature propagation and refinement for future frames.
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="highlights-content">
+			<div style="width:100%; text-align: center;">
+				<img style="width:100%" src="projects/LiMA/cosine.png" alt='cosine similarity'>
+				<strong>Figure 3.</strong> Cosine similarity between a query point (marked as the red dot) and: (1) image features, and (2) LiDAR point features projected onto the image. Colors range from red (indicating high similarity) to blue (indicating low similarity). Best viewed in colors.
+			</div>
+		</div>
+
+		<hr>
+
+		<section class="section">
+			<p>
+				<b>Table 1.</b> <b>Comparisons of state-of-the-art LiDAR pretraining methods</b> pretrained on nuScenes and fine-tuned on nuScenes, SemanticKITTI, and Waymo Open datasets, respectively, with specific data portions. <b>LP</b> denotes linear probing with frozen backbones. All scores are given in percentage (%).
+			</p>
+			<div class="details table-responsive">
+				<table class="table table-bordered table-striped" style="border-collapse: collapse; width: 100%; text-align: center; vertical-align: middle;">
+					<thead>
+						<tr>
+              <th rowspan="2">Method</th>
+              <th rowspan="2">Venue</th>
+              <th rowspan="2">Backbone (2D)</th>
+              <th rowspan="2">Backbone (3D)</th>
+              <th rowspan="2">Frames</th>
+              <th colspan="6">nuScenes</th>
+              <th>KITTI</th>
+              <th>Waymo</th>
+            </tr>
+            <tr>
+              <th>LP</th>
+              <th>1%</th>
+              <th>5%</th>
+              <th>10%</th>
+              <th>25%</th>
+              <th>Full</th>
+              <th>1%</th>
+              <th>1%</th>
+            </tr>
+					</thead>
+					<tbody>
+						<tr>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+						<tr>
+              <td>Random</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+              <td>8.10</td>
+              <td>30.30</td>
+              <td>47.84</td>
+              <td>56.15</td>
+              <td>65.48</td>
+              <td>74.66</td>
+              <td>39.50</td>
+              <td>39.41</td>
+            </tr>
+						<tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>ResNet-50</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>38.80</td>
+              <td>38.30</td>
+              <td>52.49</td>
+              <td>59.84</td>
+              <td>66.91</td>
+              <td>74.79</td>
+              <td>44.60</td>
+              <td>47.12</td>
+            </tr>
+						<tr>
+              <td>ST-SLidR</td>
+              <td>CVPR'23</td>
+              <td>ResNet-50</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>40.48</td>
+              <td>40.75</td>
+              <td>54.69</td>
+              <td>60.75</td>
+              <td>67.70</td>
+              <td>75.14</td>
+              <td>44.72</td>
+              <td>44.93</td>
+            </tr>
+            <tr>
+              <td>TriCC</td>
+              <td>CVPR'23</td>
+              <td>ResNet-50</td>
+              <td>MinkUNet-34</td>
+              <td>2</td>
+              <td>38.00</td>
+              <td>41.20</td>
+              <td>54.10</td>
+              <td>60.40</td>
+              <td>67.60</td>
+              <td>75.60</td>
+              <td>45.90</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Seal</td>
+              <td>NeurIPS'23</td>
+              <td>ResNet-50</td>
+              <td>MinkUNet-34</td>
+              <td>2</td>
+              <td>44.95</td>
+              <td>45.84</td>
+              <td>55.64</td>
+              <td>62.97</td>
+              <td>68.41</td>
+              <td>75.60</td>
+              <td>46.63</td>
+              <td>49.34</td>
+            </tr>
+            <tr>
+              <td>CSC</td>
+              <td>CVPR'24</td>
+              <td>ResNet-50</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>46.00</td>
+              <td>47.00</td>
+              <td>57.00</td>
+              <td>63.30</td>
+              <td>68.60</td>
+              <td>75.70</td>
+              <td>47.20</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>HVDistill</td>
+              <td>IJCV'24</td>
+              <td>ResNet-50</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>39.50</td>
+              <td>42.70</td>
+              <td>56.60</td>
+              <td>62.90</td>
+              <td>69.30</td>
+              <td>76.60</td>
+              <td>49.70</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>ViT-S</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>44.70</td>
+              <td>41.16</td>
+              <td>53.65</td>
+              <td>61.47</td>
+              <td>66.71</td>
+              <td>74.20</td>
+              <td>44.67</td>
+              <td>47.57</td>
+            </tr>
+            <tr>
+              <td>Seal</td>
+              <td>NeurIPS'23</td>
+              <td>ViT-S</td>
+              <td>MinkUNet-34</td>
+              <td>2</td>
+              <td>45.16</td>
+              <td>44.27</td>
+              <td>55.13</td>
+              <td>62.46</td>
+              <td>67.64</td>
+              <td>75.58</td>
+              <td>46.51</td>
+              <td>48.67</td>
+            </tr>
+            <tr>
+              <td>SuperFlow</td>
+              <td>ECCV'24</td>
+              <td>ViT-S</td>
+              <td>MinkUNet-34</td>
+              <td>3</td>
+              <td>46.44</td>
+              <td>47.81</td>
+              <td>59.44</td>
+              <td>64.47</td>
+              <td>69.20</td>
+              <td>76.54</td>
+              <td>47.97</td>
+              <td>49.94</td>
+            </tr>
+            <tr>
+              <td>ScaLR</td>
+              <td>CVPR'24</td>
+              <td>ViT-S</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>49.66</td>
+              <td>45.89</td>
+              <td>56.52</td>
+              <td>61.07</td>
+              <td>65.79</td>
+              <td>73.39</td>
+              <td>46.06</td>
+              <td>47.67</td>
+            </tr>
+            <tr>
+              <td><b>LiMA</b></td>
+              <td><b>Ours</b></td>
+              <td><b>ViT-S</b></td>
+              <td><b>MinkUNet-34</b></td>
+              <td><b>6</b></td>
+              <td><b>54.76</b></td>
+              <td><b>48.75</b></td>
+              <td><b>60.83</b></td>
+              <td><b>65.41</b></td>
+              <td><b>69.31</b></td>
+              <td><b>76.94</b></td>
+              <td><b>49.28</b></td>
+              <td><b>50.23</b></td>
+            </tr>
+            <tr>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>ViT-B</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>45.35</td>
+              <td>41.64</td>
+              <td>55.83</td>
+              <td>62.68</td>
+              <td>67.61</td>
+              <td>74.98</td>
+              <td>45.50</td>
+              <td>48.32</td>
+            </tr>
+            <tr>
+              <td>Seal</td>
+              <td>NeurIPS'23</td>
+              <td>ViT-B</td>
+              <td>MinkUNet-34</td>
+              <td>2</td>
+              <td>46.59</td>
+              <td>45.98</td>
+              <td>57.15</td>
+              <td>62.79</td>
+              <td>68.18</td>
+              <td>75.41</td>
+              <td>47.24</td>
+              <td>48.91</td>
+            </tr>
+            <tr>
+              <td>SuperFlow</td>
+              <td>ECCV'24</td>
+              <td>ViT-B</td>
+              <td>MinkUNet-34</td>
+              <td>3</td>
+              <td>47.66</td>
+              <td>48.09</td>
+              <td>59.66</td>
+              <td>64.52</td>
+              <td>69.79</td>
+              <td>76.57</td>
+              <td>48.40</td>
+              <td>50.20</td>
+            </tr>
+            <tr>
+              <td>ScaLR</td>
+              <td>CVPR'24</td>
+              <td>ViT-B</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>51.90</td>
+              <td>48.90</td>
+              <td>57.69</td>
+              <td>62.88</td>
+              <td>66.85</td>
+              <td>74.15</td>
+              <td>47.77</td>
+              <td>49.38</td>
+            </tr>
+            <tr>
+              <td><b>LiMA</b></td>
+              <td><b>Ours</b></td>
+              <td><b>ViT-B</b></td>
+              <td><b>MinkUNet-34</b></td>
+              <td><b>6</b></td>
+              <td><b>56.65</b></td>
+              <td><b>51.29</b></td>
+              <td><b>61.11</b></td>
+              <td><b>65.62</b></td>
+              <td><b>70.43</b></td>
+              <td><b>76.91</b></td>
+              <td><b>50.44</b></td>
+              <td><b>51.35</b></td>
+            </tr>
+            <tr>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>ViT-L</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>45.70</td>
+              <td>42.77</td>
+              <td>57.45</td>
+              <td>63.20</td>
+              <td>68.13</td>
+              <td>75.51</td>
+              <td>47.01</td>
+              <td>48.60</td>
+            </tr>
+            <tr>
+              <td>Seal</td>
+              <td>NeurIPS'23</td>
+              <td>ViT-L</td>
+              <td>MinkUNet-34</td>
+              <td>2</td>
+              <td>46.81</td>
+              <td>46.27</td>
+              <td>58.14</td>
+              <td>63.27</td>
+              <td>68.67</td>
+              <td>75.66</td>
+              <td>47.55</td>
+              <td>50.02</td>
+            </tr>
+            <tr>
+              <td>SuperFlow</td>
+              <td>ECCV'24</td>
+              <td>ViT-L</td>
+              <td>MinkUNet-34</td>
+              <td>3</td>
+              <td>48.01</td>
+              <td>49.95</td>
+              <td>60.72</td>
+              <td>65.09</td>
+              <td>70.01</td>
+              <td>77.19</td>
+              <td>49.07</td>
+              <td>50.67</td>
+            </tr>
+            <tr>
+              <td>ScaLR</td>
+              <td>CVPR'24</td>
+              <td>ViT-L</td>
+              <td>MinkUNet-34</td>
+              <td>1</td>
+              <td>51.77</td>
+              <td>49.13</td>
+              <td>58.36</td>
+              <td>62.75</td>
+              <td>66.80</td>
+              <td>74.16</td>
+              <td>48.64</td>
+              <td>49.72</td>
+            </tr>
+            <tr>
+              <td><b>LiMA</b></td>
+              <td><b>Ours</b></td>
+              <td><b>ViT-L</b></td>
+              <td><b>MinkUNet-34</b></td>
+              <td><b>6</b></td>
+              <td><b>56.67</b></td>
+              <td><b>53.22</b></td>
+              <td><b>62.46</b></td>
+              <td><b>66.00</b></td>
+              <td><b>70.59</b></td>
+              <td><b>77.23</b></td>
+              <td><b>52.29</b></td>
+              <td><b>51.19</b></td>
+            </tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="section">
+			<p>
+        <b>Table 2.</b> <b>Domain generalization study of different LiDAR pretraining methods</b> pretrained on the nuScenes dataset and fine-tuned on a collection of seven different semantic segmentation datasets, respectively, with specific data portions. All scores are given in percentage (%).
+      </p>
+			<div class="details table-responsive">
+				<table class="table table-bordered table-striped" style="border-collapse: collapse; width: 100%; text-align: center; vertical-align: middle;">
+					<thead>
+            <tr>
+              <th rowspan="2">Method</th>
+              <th rowspan="2">Venue</th>
+              <th colspan="2">ScriKITTI</th>
+              <th colspan="2">Rellis-3D</th>
+              <th colspan="2">SemPOSS</th>
+              <th colspan="2">SemSTF</th>
+              <th colspan="2">SynLiDAR</th>
+              <th colspan="2">DAPS-3D</th>
+              <th colspan="2">Synth4D</th>
+            </tr>
+            <tr>
+              <th>1%</th>
+              <th>10%</th>
+              <th>1%</th>
+              <th>10%</th>
+              <th>Half</th>
+              <th>Full</th>
+              <th>Half</th>
+              <th>Full</th>
+              <th>1%</th>
+              <th>10%</th>
+              <th>Half</th>
+              <th>Full</th>
+              <th>1%</th>
+              <th>10%</th>
+            </tr>
+          </thead>
+					<tbody>
+            <tr>
+              <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+            </tr>
+            <tr>
+              <td>Random</td>
+              <td>-</td>
+              <td>23.81</td>
+              <td>47.60</td>
+              <td>38.46</td>
+              <td>53.60</td>
+              <td>46.26</td>
+              <td>54.12</td>
+              <td>48.03</td>
+              <td>48.15</td>
+              <td>19.89</td>
+              <td>44.74</td>
+              <td>74.32</td>
+              <td>79.38</td>
+              <td>20.22</td>
+              <td>66.87</td>
+            </tr>
+            <tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>39.60</td>
+              <td>50.45</td>
+              <td>49.75</td>
+              <td>54.57</td>
+              <td>51.56</td>
+              <td>55.36</td>
+              <td>52.01</td>
+              <td>54.35</td>
+              <td>42.05</td>
+              <td>47.84</td>
+              <td>81.00</td>
+              <td>85.40</td>
+              <td>63.10</td>
+              <td>62.67</td>
+            </tr>
+            <tr>
+              <td>Seal</td>
+              <td>NeurIPS'23</td>
+              <td>40.64</td>
+              <td>52.77</td>
+              <td>51.09</td>
+              <td>55.03</td>
+              <td>53.26</td>
+              <td>56.89</td>
+              <td>53.46</td>
+              <td>55.36</td>
+              <td>43.58</td>
+              <td>49.26</td>
+              <td>81.88</td>
+              <td>85.90</td>
+              <td>64.50</td>
+              <td>66.96</td>
+            </tr>
+            <tr>
+              <td>SuperFlow</td>
+              <td>ECCV'24</td>
+              <td>42.70</td>
+              <td>54.00</td>
+              <td>52.83</td>
+              <td>55.71</td>
+              <td>54.41</td>
+              <td>57.33</td>
+              <td>54.72</td>
+              <td>56.57</td>
+              <td>44.85</td>
+              <td>51.38</td>
+              <td>82.43</td>
+              <td>86.21</td>
+              <td>65.31</td>
+              <td>69.43</td>
+            </tr>
+            <tr>
+              <td>ScaLR</td>
+              <td>CVPR'24</td>
+              <td>40.64</td>
+              <td>52.39</td>
+              <td>52.53</td>
+              <td>55.57</td>
+              <td>53.65</td>
+              <td>56.86</td>
+              <td>54.06</td>
+              <td>55.96</td>
+              <td>44.42</td>
+              <td>51.96</td>
+              <td>81.92</td>
+              <td>85.58</td>
+              <td>64.36</td>
+              <td>67.44</td>
+            </tr>
+            <tr>
+              <td><b>LiMA</b></td>
+              <td><b>Ours</b></td>
+              <td><b>45.90</b></td>
+              <td><b>55.13</b></td>
+              <td><b>55.62</b></td>
+              <td><b>57.15</b></td>
+              <td><b>55.05</b></td>
+              <td><b>57.81</b></td>
+              <td><b>55.45</b></td>
+              <td><b>56.70</b></td>
+              <td><b>46.66</b></td>
+              <td><b>52.32</b></td>
+              <td><b>83.11</b></td>
+              <td><b>86.63</b></td>
+              <td><b>66.04</b></td>
+              <td><b>70.19</b></td>
+            </tr>
+					</tbody>
+				</table>
+			</div>
+		</section>
+
+		<hr>
+
+		<section class="section">
+			<p>
+        <b>Table 3.</b> <b>Comparisons of state-of-the-art LiDAR pretraining methods</b> pretrained and fine-tuned on the nuScenes dataset with specific data portions. All detection methods employ CenterPoint or SECOND as the 3D object detection backbone.
+      </p>
+			<div class="details table-responsive">
+				<table class="table table-bordered table-striped" style="border-collapse: collapse; width: 100%; text-align: center; vertical-align: middle;">
+					<thead>
+            <tr>
+              <th rowspan="3">Method</th>
+              <th rowspan="3">Venue</th>
+              <th colspan="6">nuScenes</th>
+            </tr>
+            <tr>
+              <th colspan="2">5%</th>
+              <th colspan="2">10%</th>
+              <th colspan="2">20%</th>
+            </tr>
+            <tr>
+              <th>mAP</th>
+              <th>NDS</th>
+              <th>mAP</th>
+              <th>NDS</th>
+              <th>mAP</th>
+              <th>NDS</th>
+            </tr>
+          </thead>
+          <tbody>
+            <th colspan="8">Backbone: VoxelNet + CenterPoint</th>
+            <tr>
+              <td>Random</td>
+              <td>-</td>
+              <td>38.0</td>
+              <td>44.3</td>
+              <td>46.9</td>
+              <td>55.5</td>
+              <td>50.2</td>
+              <td>59.7</td>
+            </tr>
+            <tr>
+              <td>PointContrast</td>
+              <td>ECCV'20</td>
+              <td>39.8</td>
+              <td>45.1</td>
+              <td>47.7</td>
+              <td>56.0</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>GCC-3D</td>
+              <td>ICCV'21</td>
+              <td>41.1</td>
+              <td>46.8</td>
+              <td>48.4</td>
+              <td>56.7</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>43.3</td>
+              <td>52.4</td>
+              <td>47.5</td>
+              <td>56.8</td>
+              <td>50.4</td>
+              <td>59.9</td>
+            </tr>
+            <tr>
+              <td>TriCC</td>
+              <td>CVPR'23</td>
+              <td>44.6</td>
+              <td>54.4</td>
+              <td>48.9</td>
+              <td>58.1</td>
+              <td>50.9</td>
+              <td>60.3</td>
+            </tr>
+            <tr>
+              <td>CSC</td>
+              <td>CVPR'24</td>
+              <td>45.3</td>
+              <td>54.2</td>
+              <td>49.3</td>
+              <td>58.3</td>
+              <td>51.9</td>
+              <td>61.3</td>
+            </tr>
+            <tr>
+              <td>ScaLR</td>
+              <td>CVPR'24</td>
+              <td>44.3</td>
+              <td>53.3</td>
+              <td>48.2</td>
+              <td>57.1</td>
+              <td>50.7</td>
+              <td>60.8</td>
+            </tr>
+            <tr>
+              <td><b>LiMA</b></td>
+              <td><b>Ours</b></td>
+              <td><b>46.5</b></td>
+              <td><b>56.4</b></td>
+              <td><b>50.1</b></td>
+              <td><b>59.6</b></td>
+              <td><b>52.3</b></td>
+              <td><b>62.3</b></td>
+            </tr>
+            <th colspan="8">Backbone: VoxelNet + SECOND</th>
+            <tr>
+              <td>Random</td>
+              <td>-</td>
+              <td>35.8</td>
+              <td>45.9</td>
+              <td>39.0</td>
+              <td>51.2</td>
+              <td>43.1</td>
+              <td>55.7</td>
+            </tr>
+            <tr>
+              <td>SLidR</td>
+              <td>CVPR'22</td>
+              <td>36.6</td>
+              <td>48.1</td>
+              <td>39.8</td>
+              <td>52.1</td>
+              <td>44.2</td>
+              <td>56.3</td>
+            </tr>
+            <tr>
+              <td>TriCC</td>
+              <td>CVPR'23</td>
+              <td>37.8</td>
+              <td>50.0</td>
+              <td>41.4</td>
+              <td>53.5</td>
+              <td>45.5</td>
+              <td>58.7</td>
+            </tr>
+            <tr>
+              <td>CSC</td>
+              <td>CVPR'24</td>
+              <td>38.2</td>
+              <td>49.4</td>
+              <td>42.5</td>
+              <td>54.8</td>
+              <td>45.6</td>
+              <td>58.1</td>
+            </tr>
+            <tr>
+              <td>ScaLR</td>
+              <td>CVPR'24</td>
+              <td>37.3</td>
+              <td>48.7</td>
+              <td>41.4</td>
+              <td>53.5</td>
+              <td>45.5</td>
+              <td>58.6</td>
+            </tr>
+            <tr>
+              <td><b>LiMA</b></td>
+              <td><b>Ours</b></td>
+              <td><b>39.4</b></td>
+              <td><b>50.1</b></td>
+              <td><b>43.2</b></td>
+              <td><b>55.3</b></td>
+              <td><b>46.0</b></td>
+              <td><b>59.5</b></td>
+            </tr>
+          </tbody>
+				</table>
+			</div>
+		</section>
+
+		<hr>
+
+		<div class="highlights-content">
+			<div style="width:100%; text-align: center;">
+				<img style="width:100%" src="projects/LiMA/vis_nus.png" alt='vis_nus'>
+				<strong>Figure 4.</strong> Qualitative assessments of state-of-the-art methods, pretrained on nuScenes and fine-tuned on nuScenes with 1% annotations.
+        The error maps depict correct and incorrect predictions in gray and red, respectively.
+        Best viewed in colors.
+			</div>
+		</div>
+
+		<hr>
+
+		<div class="highlights-content">
+			<div style="width:100%; text-align: center;">
+				<img style="width:100%" src="projects/LiMA/vis_det.png" alt='vis_det'>
+				<strong>Figure 5.</strong> Qualitative assessments of object detection, pretrained on nuScenes and fine-tuned on nuScenes with 5% annotations.
+        The groundtruth/predicted results are highlighted with blue/red boxes, respectively.
+        Best viewed in colors.
+			</div>
+		</div>
+	</div>
+</section>
+
+<br/>
+<section class="section">
+  <div class="section-title">
+    BibteX
+  </div>
+  <div class="details">
+    <pre>
+      @inproceedings{xu2025lima,
+        title = {Beyond One Shot, Beyond One Perspective: Cross-View and Long-Horizon Distillation for Better LiDAR Representations},
+        author = {Xu, Xiang and Kong, Lingdong and Wang, Song and Zhou, Chuanwei and Liu, Qingshan},
+        booktitle = {IEEE/CVF International Conference on Computer Vision},
+        year = {2025}
+      }
+    </pre>
+  </div>
+</section>
+
+</div>
+</body>
+</html>

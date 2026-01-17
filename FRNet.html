@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FRNet">
+  <meta name="google-site-verification" content="FzAJM_4azDmgt5qXJBAUDAx332xVDar5iPZyD48YJug" />
+
+  <title>FRNet - Project Page</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/charts.css/dist/charts.min.css">
+  <link id="theme-style" rel="stylesheet" href="projects/css/main.css">
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-7G7KG5PND3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-7G7KG5PND3');
+  </script>
+
+  <script type="module" src="projects/js/background_star.js"></script>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<section class="section intro-section">
+  <div class="intro-container" style="text-align: center;">
+    <div class="header">
+      <h3 class="papername">FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation</h3>
+    </div>
+    <ul class="list-unstyled name-list">
+      <li><a href="https://scholar.google.com/citations?user=1UHZkksAAAAJ" target="_blank">Xiang Xu</a><sup>1</sup></li>
+      <li><a href="https://scholar.google.com/citations?user=-j1j7TkAAAAJ" target="_blank">Lingdong Kong</a><sup>2</sup></li>
+      <li><a href="https://scholar.google.com/citations?user=zG3rgUcAAAAJ" target="_blank">Hui Shuai</a><sup>3</sup></li>
+      <li><a href="https://scholar.google.com/citations?user=2Pyf20IAAAAJ" target="_blank">Qingshan Liu</a><sup>3</sup></li>
+    </ul>
+    <ul class="list-unstyled name-list">
+      <li><sup>1</sup>Nanjing University of Aeronautics and Astronautics</li>
+      <li><sup>2</sup>National University of Singapore</li>
+      <li><sup>3</sup>Nanjing University of Posts and Telecommunications</li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-title">
+    Abstract
+  </div>
+  <div class="details">
+    LiDAR segmentation has become a crucial component in advanced autonomous driving systems.
+    Recent range-view LiDAR segmentation approaches show promise for real-time processing.
+    However, they inevitably suffer from corrupted contextual information and rely heavily on post-processing techniques for prediction refinement.
+    In this work, we propose FRNet, a simple yet powerful method aimed at restoring the contextual information of range image pixels using corresponding frustum LiDAR points.
+    Firstly, a frustum feature encoder module is used to extract per-point features within the frustum region, which preserves scene consistency and is crucial for point-level predictions.
+    Next, a frustum-point fusion module is introduced to update per-point features hierarchically, enabling each point to extract more surrounding information via the frustum features.
+    Finally, a head fusion module is used to fuse features at different levels for final semantic prediction.
+    Extensive experiments conducted on four popular LiDAR segmentation benchmarks under various task setups demonstrate the superiority of FRNet.
+    Notably, FRNet achieves 73.3% and 82.5% mIoU scores on the testing sets of SemanticKITTI and nuScenes.
+    While achieving competitive performance, FRNet operates 5 times faster than state-of-the-art approaches.
+    Such high efficiency opens up new possibilities for more scalable LiDAR segmentation.
+    The code has been made publicly available at https://github.com/Xiangxu-0103/FRNet.
+  </div>
+</section>
+
+<br>
+<section class="section links-section">
+  <div class="section-title">
+    Resource
+  </div>
+  <div class="details links-table">
+    <table>
+      <tr>
+        <td>
+          <div class="links-container">
+            <a href="https://arxiv.org/abs/2312.04484" target="_blank"><img class="links-cover" src="projects/arxiv.png" alt="PDF Cover"></a>
+          </div>
+        </td>
+        <td>
+          <div class="links-container">
+            <a href="https://github.com/Xiangxu-0103/FRNet" target="_blank"><img class="links-cover" src="projects/github.png" alt="github icon"></a>
+          </div>
+        </td>
+        <td>
+          <div class="links-container">
+            <a href="https://www.youtube.com/watch?v=PvmnaMKnZrc" target="_blank"><img class="links-cover" src="projects/medium.png" alt="medium icon"></a>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="https://arxiv.org/abs/2312.04484" target="_blank">Paper</a></td>
+        <td><a href="https://github.com/Xiangxu-0103/FRNet" target="_blank">Code</a></td>
+        <td><a href="https://www.youtube.com/watch?v=PvmnaMKnZrc" target="_blank">Medium</a></td>
+      </tr>
+    </table>
+  </div>
+</section>
+<br/>
+
+<section class="section highlights-section">
+  <div class="section-title">
+    HighLight
+  </div>
+  <br>
+  <div class="details highlights-container">
+    <div class="highlights-content">
+      <div style="width:50%; text-align: center;">
+        <img style="width:100%" src="projects/FRNet/teaser.png" alt="fig1">
+        <strong>Figure 1.</strong> A study on the scalability of state-of-the-art LiDAR segmentation models on the SemanticKITTI leaderboard.
+        The size of the circular representation corresponds to the number of model parameters.
+        FRNet achieves competitive performance with current state-of-the-art models while still maintaining satisfactory efficiency for real-time processing.
+      </div>
+      <div style="width:50%; margin-left:20px">
+        <strong>Frustum-Range Representation Learning</strong><br>
+        In this work, we present a Frustum-Range Network (<strong>FRNet</strong>) for scalable LiDAR segmentation, which incorporates points into the range image, achieving a superior balance between efficiency and accuracy.
+        FRNet consists of <strong>three</strong> main components.
+        <strong>Firstly</strong>, a Frustum Feature Encoder (FFE) is utilized to group all points with the same frustum region into corresponding range-view pixels in relation to the range image using multiple multi-layer perceptrons (MLPs).
+        This allows for the preservation of all points and the prediction of semantic labels for these points in an end-to-end manner.
+        Subsequently, the point features are pooled to represent the frustum region and formatted into a 2D representation, which is then subjected to traditional convolutions.
+        <strong>Secondly</strong>, a Frustum-Point (FP) fusion module is employed to efficiently update the hierarchical features of each point during each convolutional stage.
+        This module includes frustum-to-point fusion to update per-point features and point-to-frustum fusion to enhance frustum features.
+        As a result, all points extract larger local features based on the frustum region.
+        <strong>Finallg</strong>, a Fusion Head (FH) module is designed to leverage features from different levels to generate individual features for each point, facilitating end-to-end prediction without the need for post-processing techniques.
+        As shown in Fig. 1, the proposed FRNet achieves great improvement among range-view methods while still maintaining high efficiency.
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="highlights-content">
+      <div style="width:100%; text-align: center;">
+        <img style="width:100%" src="projects/FRNet/framework.png" alt="framework">
+          <strong>Figure 2.</strong> The proposed FRNet comprises three main components:
+          <strong>1)</strong> Frustum Feature Encoder is used to embed per-point features within the frustum region.
+          <strong>2)</strong> Frustum-Point (FP) Fusion Module updates per-point features hierarchically at each stage of the 2D backbone.
+          <strong>3)</strong> Fusion Head fuses different levels of features to predict final results.
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="highlights-content">
+      <div style="width:100%; text-align: center;">
+        <img style="width:100%" src="projects/FRNet/qualitative.png" alt="fig3">
+          <strong>Figure 3.</strong> Qualitative results among state-of-the-art LiDAR segmentation methods on the val set of SemanticKITTI.
+          To highlight the differences compared with groundtruth, the correct and incorrect predictions are painted in gray and red, respectively.
+          Best viewed in colors and zoomed-in for details.
+      </div>
+    </div>
+  </div>
+</section>
+
+<br/>
+
+<section class="section">
+  <div class="section-title">
+    BibteX
+  </div>
+  <div class="details">
+    <pre>
+      @article{xu2025frnet,
+        title = {FRNet: Frustum-Range Networks for Scalable LiDAR Segmentation},
+        author = {Xu, Xiang and Kong, Lingdong and Shuai, Hui and Liu, Qingshan},
+        journal = {IEEE Transactions on Image Processing},
+        volume = {34},
+        pages = {2173--2186},
+        year = {2025}
+      }
+    </pre>
+  </div>
+</section>
+
+</div>
+</body>
+</html>
